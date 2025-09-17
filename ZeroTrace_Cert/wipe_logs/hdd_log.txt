@@ -1,0 +1,7 @@
+Wipe initiated: 2025-09-16 10:22:01
+Device: Seagate Barracuda 2TB
+Method: NIST Clear
+Pass 1: Overwrite complete
+Pass 2: Overwrite complete
+Pass 3: Overwrite complete
+Wipe completed successfully
