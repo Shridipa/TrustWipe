@@ -1,0 +1,16 @@
+{
+    "certificate_id": "8e019116-e6e9-42d4-aab3-7a7778ff9c20",
+    "timestamp": "2025-09-17T16:31:58.229892",
+    "device": {
+        "serial_number": "SN987654321",
+        "make": "Seagate",
+        "model": "Barracuda 2TB",
+        "storage_type": "HDD"
+    },
+    "wipe_method": "NIST Clear",
+    "technician": {
+        "technician_id": "tech-007",
+        "signature": "TrustWipeSystem"
+    },
+    "log_hash": "8557aea35417fce453d4cab986c266cade01aff983cda7c12d85a1c119f8afc8"
+}

@@ -1,0 +1,17 @@
+{
+  "certificate_id": "3f2a9c8e-...",
+  "timestamp": "2025-09-16T12:34:56Z",
+  "device": {
+    "serial_number": "SN123456789",
+    "make": "Samsung",
+    "model": "EVO860",
+    "storage_type": "SSD"
+  },
+  "wipe_method": "NIST Purge",
+  "technician": {
+    "technician_id": "tech-001",
+    "signature": "TrustWipeSystem"
+  },
+  "log_hash": "a3f5e6d...",
+  "digital_signature": null
+}

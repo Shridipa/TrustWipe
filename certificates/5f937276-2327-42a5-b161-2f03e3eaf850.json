@@ -1,0 +1,16 @@
+{
+    "certificate_id": "5f937276-2327-42a5-b161-2f03e3eaf850",
+    "timestamp": "2025-09-18T13:29:23.070101",
+    "device": {
+        "make": "Generic",
+        "model": "DriveModelX",
+        "serial_number": "SN123456789",
+        "storage_type": "HDD"
+    },
+    "wipe_method": "NIST Clear",
+    "technician": {
+        "technician_id": "tech-007",
+        "signature": "TrustWipeSystem"
+    },
+    "log_hash": "ff67635b6eeb41b680b6105a75d9d750732557d413db7e6d1a639968b1d1dc4d"
+}

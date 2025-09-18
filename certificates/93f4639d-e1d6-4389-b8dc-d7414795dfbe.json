@@ -1,0 +1,16 @@
+{
+    "certificate_id": "93f4639d-e1d6-4389-b8dc-d7414795dfbe",
+    "timestamp": "2025-09-18 07:14 PM IST",
+    "device": {
+        "make": "Generic",
+        "model": "DriveModelX",
+        "serial_number": "SN123456789",
+        "storage_type": "HDD"
+    },
+    "wipe_method": "Single Pass Overwrite",
+    "technician": {
+        "technician_id": "tech-007",
+        "signature": "TrustWipe Organization"
+    },
+    "log_hash": "639a8fd07026cb5bad6820466cc46e451fbc2a0b9e7567a3068a56a43dc245e7"
+}
