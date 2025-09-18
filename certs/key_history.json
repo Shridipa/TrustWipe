@@ -1,0 +1,14 @@
+[
+  {
+    "key_id": "v1",
+    "public_key_path": "issuer_public.pem",
+    "valid_from": "2023-01-01T00:00:00Z",
+    "valid_to": "2024-01-01T00:00:00Z"
+  },
+  {
+    "key_id": "v2",
+    "public_key_path": "issuer_public_v2.pem",
+    "valid_from": "2024-01-01T00:00:01Z",
+    "valid_to": "2025-01-01T00:00:00Z"
+  }
+]

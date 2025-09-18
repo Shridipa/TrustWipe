@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verification Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="cert-header">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="TRUSTWIPE Logo" height="60">
+      <h2>Verification Result</h2>
+    </div>
+
+    {% if valid %}
+      <p class="cert-status">✅ Certificate is <strong>VALID</strong></p>
+    {% else %}
+      <p class="cert-status" style="color: red;">❌ Certificate is <strong>INVALID</strong></p>
+    {% endif %}
+
+    <p><strong>Certificate ID:</strong> <span id="cert-id">{{ certificate_id }}</span></p>
+    <p><strong>Hash:</strong> {{ hash }}</p>
+
+    <button onclick="copyCertID()">Copy Certificate ID</button>
+    <button onclick="toggleDetails()">Toggle Details</button>
+
+    <div id="extra-details" style="display: none;">
+      <p>Additional metadata or audit info can go here.</p>
+    </div>
+
+    <div class="footer">TRUSTWIPE | Verified by Public Key Infrastructure</div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </div>
+</body>
+</html>
